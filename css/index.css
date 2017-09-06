@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn_list{
+    z-index: 999;
+    position: relative;
+    top: -100px;
+}
+.btn_list span{
+    display:block;
+    float:left;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color: black;
+    margin-left: 10px;
+}
+.btn_list .on{
+    background-color: orange;
+}
